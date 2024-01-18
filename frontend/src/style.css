@@ -1,0 +1,108 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #009688;
+}
+
+input {
+    width: calc(30% - 10px);
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.book {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #8ef9ee;
+}
+
+.book h2 {
+  margin-top: 15px;
+  color: #009688;
+}
+
+.book p {
+  color: #666;
+  margin-top: 10px;
+}
+
+.book span {
+  display: block;
+  font-weight: bold;
+  color: #e91e63;
+  margin-top: 15px;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+  background-color: #009688;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #333; 
+  text-decoration: none;
+  color: #333;
+}
+
+.delete{
+  background-color: transparent;
+  border: 2px solid #ef0b0b; 
+  text-decoration: none;
+  color: #333;
+
+}
+
+.update {
+  background-color: transparent;
+  border: 2px solid #00796b; 
+  text-decoration: none;
+  color: #333;
+}
